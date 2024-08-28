@@ -23,6 +23,7 @@ Sixth, you are asked if you would like to keep ordering.
 - [License](#license)
 - [Credits](#credits)
 - [Contact Information](#contact-information)
+- [Additional Reading](#additional-reading)
 
 ## Installation
 
@@ -38,9 +39,9 @@ Sixth, you are asked if you would like to keep ordering.
 
 The project follows the following structure:
 
-Code language: Python (python)
-python-challenge-1/
-├── menu.py
+Code language: Python (python) \newline
+python-challenge-1/  \newline
+├── menu.py \newline
 └── README.md
 
 ## License
@@ -49,11 +50,13 @@ This project is licensed under Steve Vierling Programming, Ltd.
 ## Credits
 Author Steve Vierling
 Tutor Deborah, of D.U. Tutoring, provided helpful insight in making this program functional
+Steve referenced https://realpython.com/ for this README.md template
 
 ## Contact Information
 For any questions or feedback, feel free to message Steve at his linkedin site: https://www.linkedin.com/in/stephenvierling/
 
-Here is a case study that I authored: https://github.com/steve-vierling/ai-case-study/tree/main
+## Additional Reading 
+Here is the only other Python work I have authored, it is a case: https://github.com/steve-vierling/ai-case-study/tree/main
 I am a beginner python software engineer with a master's degree in Information Systems from Regis University, Denver, CO. I have over 20 years of Unix/Linux experience, software support and 2.5 years in DevOps.  I am passionate about creating efficient and scalable software solutions.
 
 
