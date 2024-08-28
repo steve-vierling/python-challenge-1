@@ -1,9 +1,7 @@
 # python-challenge-1
 Module 2 Challenge
 
-# Project Title
-
-Interactive Ordering System from a Food Truck Menu
+# Interactive Ordering System from a Food Truck Menu
 
 First, this program begins by welcoming you to the variety food truck.  
 Secondly, it asks you to type the menu from which you want to order.
