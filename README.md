@@ -9,8 +9,8 @@ Third, the selected menu displays and you type the menu of the item you wish to 
 Fourth, you are asked the quantity of the item you wish to order.\
 Fifth, it prints a confirmation of quantity and item added to your order.\
 Sixth, you are asked if you would like to keep ordering.    
- > > If you reply yes, then you are looped back to step #2 above.    
- > > If no, then you are thanked for your order and informed of your entire order, formatted for legibility, along with your Total cost.
+ > If you reply yes, then you are looped back to step #2 above.    
+ > If no, then you are thanked for your order and informed of your entire order, formatted for legibility, along with your Total cost.
 
 ## Table of Contents
 
@@ -45,15 +45,15 @@ python-challenge-1/\
 This project is licensed under Steve Vierling Programming, Ltd.
 
 ## Credits
-Author Steve Vierling
-Tutor Deborah, of D.U. Tutoring, provided helpful insight in making this program functional
+Author Steve Vierling  
+Tutor Deborah, of D.U. Tutoring, provided helpful insight in making this program functional  
 Steve referenced https://realpython.com/ for this README.md template
 
 ## Contact Information
 For any questions or feedback, feel free to message Steve at his linkedin site: https://www.linkedin.com/in/stephenvierling/
 
 ## Additional Reading 
-Here is the only other Python work I have authored, it is a case: https://github.com/steve-vierling/ai-case-study/tree/main
+Here is the only other Python work I have authored, it is a case study: https://github.com/steve-vierling/ai-case-study/tree/main  
 I am a beginner python software engineer with a master's degree in Information Systems from Regis University, Denver, CO. I have over 20 years of Unix/Linux experience, software support and 2.5 years in DevOps.  I am passionate about creating efficient and scalable software solutions.
 
 
