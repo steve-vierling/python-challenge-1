@@ -9,8 +9,8 @@ Third, the selected menu displays and you type the menu of the item you wish to 
 Fourth, you are asked the quantity of the item you wish to order.\
 Fifth, it prints a confirmation of quantity and item added to your order.\
 Sixth, you are asked if you would like to keep ordering.    
- > If you reply yes, then you are looped back to step #2 above.    
- > If no, then you are thanked for your order and informed of your entire order, formatted for legibility, along with your Total cost.
+  -If you reply yes, then you are looped back to step #2 above.    
+  -If no, then you are thanked for your order and informed of your entire order, formatted for legibility, along with your Total cost.
 
 ## Table of Contents
 
