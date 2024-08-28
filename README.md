@@ -39,9 +39,9 @@ Sixth, you are asked if you would like to keep ordering.
 
 The project follows the following structure:
 
-Code language: Python (python) \newline
-python-challenge-1/  \newline
-├── menu.py \newline
+Code language: Python (python)\
+python-challenge-1/\
+├── menu.py\
 └── README.md
 
 ## License
