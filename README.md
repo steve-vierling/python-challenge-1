@@ -47,7 +47,8 @@ This project is licensed under Steve Vierling Programming, Ltd.
 ## Credits
 Author Steve Vierling  
 Tutor Deborah, of D.U. Tutoring, provided helpful insight in making this program functional  
-Steve referenced https://realpython.com/ for this README.md template
+Steve referenced https://realpython.com/ for this README.md template  
+Steve also referenced all of the prior exercises inside the D.U. Artificial Intelligence course; https://bootcamp.du.edu/artificial-intelligence-062024/
 
 ## Contact Information
 For any questions or feedback, feel free to message Steve at his linkedin site: https://www.linkedin.com/in/stephenvierling/
