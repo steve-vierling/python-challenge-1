@@ -3,156 +3,57 @@ Module 2 Challenge
 
 # Project Title
 
-[![Build Status](https://img.exmaple.io/exmaple/username/repo.svg)](https://exmaple.org/username/repo)
-[![License](https://img.exmaple.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+Interactive Ordering System from a Food Truck Menu
 
-A brief description of what your project does.
+First, this program begins by welcoming you to the variety food truck.  
+Secondly, it asks you to type the menu from which you want to order.
+Third, the selected menu displays and you type the menu of the item you wish to order.
+Fourth, you are asked the quantity of the item you wish to order.
+Fifth, it prints a confirmation of quantity and item added to your order.
+Sixth, you are asked if you would like to keep ordering.  
+  If you reply yes, then you are looped back to step #2 above.  
+  If no, then you are thanked for your order and informed of your entire order, 
+    formatted for legibility, along with your Total cost.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [File Structure](#file-structure)
-- [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
 - [Contact Information](#contact-information)
 
 ## Installation
 
-1. Ensure you have Python 3.6 or higher installed.
-2. Clone this repository: `git clone https://github.com/username/repo.git`
-3. Navigate to the project directory: `cd repo`
-4. Install the dependencies: `pip install -r requirements.txt`
+1. Ensure you have Python 3.10 or higher installed.
+2. Clone this repository: `git clone https://github.com/steve-vierling/python-challenge-1.git`
 
 ## Usage
 
-1. Run the project: `python main.py`
-2. Follow the on-screen instructions to perform various tasks.
-3. Modify the `config.py` file to customize settings.
-
-## Configuration
-
-The project can be configured by modifying the `config.py` file. The following settings are available:
-
-- `SETTING_1`: Description of setting 1.
-- `SETTING_2`: Description of setting 2.
+1. Run the project: `python menu.py`
+2. Follow the on-screen instructions to place an order from a food truck.
 
 ## File Structure
 
 The project follows the following structure:
 
 Code language: Python (python)
-project/
-├── main.py
-├── config.py
-├── utils/
-│ ├── module1.py
-│ ├── module2.py
-│ └── ...
-├── tests/
-│ ├── test_module1.py
-│ ├── test_module2.py
-│ └── ...
+python-challenge-1/
+├── menu.py
 └── README.md
 
-## Examples
+## License
+This project is licensed under Steve Vierling Programming, Ltd.
 
-Here are some examples of how to use the project:
+## Credits
+Author Steve Vierling
+Tutor Deborah, of D.U. Tutoring, provided helpful insight in making this program functional
 
-```python
-# Example 1
-from module1 import function1
-result = function1(arg1, arg2)
-print(result)
+## Contact Information
+For any questions or feedback, feel free to message Steve at his linkedin site: https://www.linkedin.com/in/stephenvierling/
 
-# Example 2
-from module2 import MyClass
-instance = MyClass()
-instance.do_something()
-Code language: Python (python)
-Contributing
-Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request. For major changes, please discuss them with the project maintainer first.
+Here is a case study that I authored: https://github.com/steve-vierling/ai-case-study/tree/main
+I am a beginner python software engineer with a master's degree in Information Systems from Regis University, Denver, CO. I have over 20 years of Unix/Linux experience, software support and 2.5 years in DevOps.  I am passionate about creating efficient and scalable software solutions.
 
-License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-Credits
-Author 1
-Author 2
-Contact Information
-For any questions or feedback, feel free to reach out to [email protected].
-
-Feel free to modify this template to fit your specific project and requirements. Remember to replace the placeholders with your actual project information, such as project title, repository URL, author names, etc.
-Code language: Python (python)
-Read More;
-
-Simple Python Script Example [Super Simple!]
-K-means Clustering for Anomaly Detection
-Example for User-defined Exception in Python
-What are Membership Operators in Python With Example?
-Example for Complex Number in Python
-Python Example for ASCII Value of a Single Character
-What is Namespace in Python with example?
-What is ‘Self’ in Python With Example
-Python Example For Data Analysis
-What is Inheritance With Examples in Python
-What is Token in Python With Example
-What is method overloading in Python with example?
-Dmytro Iliushko
-Dmytro Iliushko
-I am a middle python software engineer with a bachelor's degree in Software Engineering from Kharkiv National Aerospace University. My expertise lies in Python, Django, Flask, Docker, REST API, Odoo development, relational databases, and web development. I am passionate about creating efficient and scalable software solutions that drive innovation in the industry.
-
-LinkedIn | Github
-View all posts
-Leave a Comment
-Comment
-Name
-Name *
-Email
-Email *
-Website
-Website
-Ezoic
-Python Latest Posts
-
-python tuple change value with example
-tuple object is not callable
-“TypeError: ‘tuple’ object is not callable” [Fixed]
-String To Tuple Python With Examples
-String To Tuple Python With Examples
-Nested Tuples in Python
-Nested Tuples in Python [In-Depth Guide]
-Python Tuples And Extend() Method [Explained]
-Python Tuples And Extend() Method [Explained]
-
-Ezoic
-Search
-Search Here....
-Search
-
-
-The "Digital Design Journal" is a dynamic web design and development magazine, serving as a valuable resource for professionals and enthusiasts alike.
-
-Facebook
-Twitter
-About
-About Us
-Advertise
-Privacy Policy
-Affiliate Disclaimer
-Write for Us
-Contact Us
-Learn
-UI Design
-Graphics
-Hosting
-Exclusive Freebies
-Other
-Website Builders
-Web Design Tools
-Web Design News
-Web Design Freelance
 
