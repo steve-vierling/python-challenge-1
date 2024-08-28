@@ -127,17 +127,13 @@ while place_order:
 
                 # 4. Check if the menu selection is in the menu items
                 if int(menu_selection) in menu_items.keys():
-                    #print(f"Menu selection is {menu_selection}")  
+
                     # Store the item name as a variable
-                    #menu_selection_name = menu_items[int(menu_selection)]
-                    #menu_selection_name = {menu_items["Item name"][menu_selection]}
                     menu_selection_name = menu_items[menu_selection]["Item name"]
-                    #print(f"You selected {menu_selection_name}")
                     menu_selection_price = menu_items[menu_selection]["Price"]
-                    #print(f"Price is: {menu_selection_price}")
                                                      
                     # Ask the customer for the quantity of the menu item
-                    quantity = input(f"How many {menu_selection_name}s?  The quantity will default to 1 if your input is invalid:")
+                    quantity = input(f"How many {menu_selection_name}s?  The quantity will default to 1 if your input is invalid: ")
 
                     # Check if the quantity is a number, default to 1 if not
                     if quantity.isdigit():
@@ -196,24 +192,23 @@ print("This is what we are preparing for you.\n")
 #print(order)
 #print(order_list)
 
-print("Item name                | Price | Quantity")
-print("-------------------------|-------|----------")
+print("Item name                 | Price  | Quantity")
+print("--------------------------|--------|----------")
 
 # 6. Loop through the items in the customer's order
 for item in order_list:
     # 7. Store the dictionary items as variables
     item_name = item["Item name"]
-    #print(f"line 204 {item_name}")
     price = item["Price"]
     item_quantity = item["Quantity"]
 
     # 8. Calculate the number of spaces for formatted printing
-    num_item_spaces = 24 - len(item_name)
+    num_item_spaces = 25 - len(item_name)
     # 9. Create space strings
     item_spaces = " " * num_item_spaces
 
     # 10. Print the item name, price, and quantity
-    print(f"{item_name}{item_spaces} | ${price:.2f} | {item_quantity}")
+    print(f"{item_name}{item_spaces} | ${price:.2f}  | {item_quantity}")
 
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
